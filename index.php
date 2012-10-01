@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
  <head>
-  <script type="text/javascript">
+  <script>
    function change () {
-    var loc=window.location;
     var goto="https://127.0.0.1:84201/";
-    var nHref=goto.concat(loc);
+    var nHref=goto.concat(window.location);
     window.location.replace(nHref); }
   </script>
  </head>
