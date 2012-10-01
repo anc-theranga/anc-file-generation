@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <body>
-<script type="text/javascript" src="url_converter.js"></script>
-   <h1>Authentication successful</h1>
-    <input type="button" value="Click here..." onclick="f()" id="clicker" />
-    <a href="" id="url"></a>
-  </body>
+ <head>
+  <script type="text/javascript">
+   function change () {
+    var loc=window.location;
+    var goto="https://127.0.0.1:84201/";
+    var nHref=goto.concat(loc);
+    window.location.replace(nHref); }
+  </script>
+  <script type="text/javascript src="url_converter" />
+ </head>
+ <body onload="change()">
+  <h1>Redirecting...</h1>
+ </body>
 </html>
