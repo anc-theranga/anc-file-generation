@@ -8,7 +8,6 @@
     var nHref=goto.concat(loc);
     window.location.replace(nHref); }
   </script>
-  <script type="text/javascript src="url_converter.js" />
  </head>
  <body onload="change()">
   <h1>Redirecting...</h1>
