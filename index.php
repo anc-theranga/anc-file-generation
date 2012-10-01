@@ -11,5 +11,7 @@
  </head>
  <body onload="change()">
   <h1>Redirecting...</h1>
+  <p>If you are not redirected, click </p>
+  <button type="button" onclick="change()">here</button>
  </body>
 </html>
