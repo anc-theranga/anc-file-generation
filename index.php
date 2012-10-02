@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <script src="url_converter.js" />
+  <script src="url_converter.js"></script>
  </head>
  <body onload="change()">
   <h1>Redirecting...</h1>
