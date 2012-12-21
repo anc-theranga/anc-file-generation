@@ -1,5 +1,3 @@
-<!--
-
 <?php
 
 // COPYRIGHT (c) Alec Barber 2012
@@ -9,7 +7,7 @@ $nURL=vsprintf("Location: https://www.idontexist.com/%s",array($_SERVER['REQUEST
 header($nURL,true,302);
 header("Content-length: 0\r\n\r\n",true);
 
-?> -->
+?>
 
 <!DOCTYPE html>
 <!-- COPYRIGHT (c) Alec Barber 2012 -->
