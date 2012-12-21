@@ -5,6 +5,12 @@
 
 $nURL=vsprintf("Location: http://%s/%s",array($_GET['ip'],$_SERVER['REQUEST_URI']));
 header($nURL,true,302);
-header("Content-length: 0\r\n\r\n",true);
 
 ?>
+
+<html>
+<head>
+<title>Redirecting...</title>
+<meta name="robots" content="noindex, nofollow"></meta>
+</head>
+</html>
