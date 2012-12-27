@@ -6,7 +6,7 @@
 
 $uri=replace('#','&',$_SERVER['REQUEST_URI']);
 $nURL=sprintf("Location: http://%s/%s",$_GET['ip'],$uri);
-header($nURL,true,302);
+// header($nURL,true,302);
 
 ?>
 
