@@ -1,0 +1,1 @@
+git push git@heroku.com:$1.git master

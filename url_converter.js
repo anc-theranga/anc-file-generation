@@ -1,0 +1,1 @@
+function change () {var goto="https://127.0.0.1:84201/";var nHref=goto.concat(window.location);window.location.replace(nHref);}
